@@ -1,0 +1,146 @@
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title> Recipe </title>
+    <link rel = "stylesheet" href= "2style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="grid-container">
+        <header>
+            <div id="logo">
+                <h1> Eleanor's Kitchen </h1>
+            </div>
+                <nav>
+                    <ul id="nav-ul">
+                        <li><a href="http://127.0.0.1:5500/Website/web.html" class="navbutton">Home</a></li>
+                        <li><a href="/about" class="navbutton">About</a></li>
+                        <li><a href="/contact" class="navbutton">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <div id="menu">
+            <nav> 
+                <ul id="menu-bar">
+                    <li><a href="/breakfast" class="menubutton">Breakfast </a></li>
+                    <li><a href="/lunch" class="menubutton"> Lunch </a></li>
+                    <li><a href="/dinner" class="menubutton"> Dinner </a></li>
+                    <li><a href="/sweet" class="menubutton"> Sweet treats </a></li>
+                    <li><a href="/budget" class="menubutton"> Budget recipes </a></li>
+                    <li><a href="/healthy" class="menubutton"> Healthy </a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <div id="day-recipe">
+                <article>
+                    <hgroup>
+                        <h2> Recipe of the day </h2>
+                    </hgroup>
+                    <hgroup>
+                        <h3 id="paella"> 
+                            <a href="#Paella" > Vegetable Paella </a>
+                        </h3>
+                    </hgroup>
+                    <img src="paella.jpg" alt="Paella" width="480", height="400">
+                     <p id="paella-text"> Vegetarian paella with peppers, courgette and olives.</p>
+                </article>
+            </div>
+
+            <div id="seasonal"> 
+                <article>
+                    <hgroup>
+                        <h2> Seasonal favourites </h2>
+                    </hgroup>
+                    <hgroup>
+                        <h3 id="quiche"> 
+                            <a href="#Quiche" > Quiche </a>
+                        </h3>
+                    </hgroup>
+                    <img src="quiche.jpg" alt="Quiche" width="480", height="400">
+                        <p id="quiche-text"> Quiche with homemade pastry.</p>
+                </article>
+            </div>
+
+            <div id="easy">
+                <article>
+                    <hgroup>
+                        <h2> Quick and easy </h2>
+                    </hgroup>
+                    <hgroup>
+                        <h3 id="brownies"> 
+                            <a href="#choc-brownies" > Chocolate Brownies </a>
+                        </h3>
+                    </hgroup>
+                    <img src="brownies.jpg" alt="Chocolate Brownies" width="480", height="400">
+                        <p id="brownie-text"> Chocolate Brownies ready in just half an hour. </p>
+                </article>
+            </div>
+
+            <div id="viewer">
+                <article>
+                    <hgroup>
+                        <h2> Viewer favourites </h2>
+                    </hgroup>
+                    <hgroup>
+                        <h3 id="pancakes"> 
+                            <a href="#Pancakes" > Pancakes </a>
+                        </h3>
+                    </hgroup>
+                    <img src="pancakes.jpg" alt="Pancakes" width="480", height="400">
+                        <p id="pancake-text"> Fluffy American-style pancakes. </p>
+                </article>
+            </div>  
+
+
+        
+            <form id= "newsletter" action="/newsletter_form" method="POST">
+                <div class="container" style="background-color: rgb(199, 197, 197)">
+                <h2 id="sign-up"> Sign up to our newsletter!</h2>
+                <p id="sign-up-info"> Receive the latest recommended recipies for some weekly inspiration. </p>
+                </div>
+
+                <div class="container" style="background-color: whitesmoke;">
+                <label for="first_name"> First Name: </label><br>
+                <input type="text" id="first_name" name="first_name" required><br>
+                <label for="surnname"> Surname: </label><br>
+                <input type="text" id="surname" name="surname" required><br>
+                <label for="email"> Email: </label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                </div>
+
+                <div class="container">
+                <input type="submit" value="Subscribe" id="submit">
+                </div>
+            </form>
+        </main> 
+
+        <footer>
+            <h2> Eleanor's Kitchen </h2>
+            <section>
+                <nav>
+                    <ul id="footer-ul">
+                        <div>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/contact">Contact</a></li>
+                        </div>
+                        <div>
+                            <li><a href="/privacy"> Privacy Policy </a></li>
+                            <li><a href="/terms"> Terms & Conditions </a></li>
+                            <li><a href="/cookie"> Cookie Policy</a></li>
+                        </div>
+                    </ul>
+                </nav>
+            </section>
+        </footer>
+
+            
+</body>    
+</html>
